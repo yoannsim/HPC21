@@ -1,0 +1,52 @@
+{
+  "context": {
+    "date": "2021-04-14T11:02:52+02:00",
+    "host_name": "reds2021",
+    "executable": "./gbench",
+    "num_cpus": 2,
+    "mhz_per_cpu": 2904,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 1
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 262144,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 3,
+        "size": 4194304,
+        "num_sharing": 1
+      }
+    ],
+    "load_avg": [0.16,0.18,0.22],
+    "library_build_type": "release"
+  },
+  "benchmarks": [
+    {
+      "name": "DataFixture/data",
+      "run_name": "DataFixture/data",
+      "run_type": "iteration",
+      "repetitions": 0,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 4058,
+      "real_time": 1.6316868728436696e+05,
+      "cpu_time": 1.6309302119270575e+05,
+      "time_unit": "ns"
+    }
+  ]
+}
